@@ -1,0 +1,17 @@
+name: Nations
+version: 1.0.0-SNAPSHOT
+main: de.nekyia.nations.NationsPlugin
+api-version: '1.21'
+authors: [gerryxn]
+prefix: Nations
+#website: noWebsiteCurrently.de
+description: Nations Plugin tailored & written by Nekyia.
+commands:
+  terra:
+    description: The main command for Nekyia's Nations.
+    aliases: [t]
+    permission: nations.use
+    permission-message: You do not have permission to use this command.
+depend: [WorldGuard, Citizens, Pl3xMap, WorldGuardExtraFlags, Oraxen]
+
+
